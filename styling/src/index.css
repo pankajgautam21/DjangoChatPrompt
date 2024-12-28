@@ -1,0 +1,11 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure full height inheritance */
+  width: 100%;  /* Ensure full width inheritance */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,82 @@
+.database-settings {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .database-settings h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .test-button,
+  .save-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .test-button {
+    background: #007bff;
+  }
+  
+  .test-button:hover {
+    background: #0056b3;
+  }
+  
+  .save-button {
+    background: #28a745;
+  }
+  
+  .save-button:hover {
+    background: #218838;
+  }
+  
+  .status-message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .status-message.success {
+    color: #28a745;
+  }
+  
+  .status-message.error {
+    color: #dc3545;
+  }
+  

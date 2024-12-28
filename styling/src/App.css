@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.sidebar.open + .main-content {
+  margin-left: 250px; 
+}
+
+.sidebar.closed + .main-content {
+  margin-left: 0;
+}
+
+.chat-container {
+  flex: 1;
+  margin-left: 260px;
+}
